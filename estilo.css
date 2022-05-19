@@ -1,0 +1,98 @@
+@keyframes color-change {
+    0% {
+        background-color: #7547e0;
+    }
+    100% {
+        border-radius: 10px 10px 0 0;
+        background-color: #fff;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input, textarea, select {
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+header{
+    background-color: #8787ea;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#logo{
+    width: 150px;
+}
+
+header h1{
+    text-align: right;
+}
+
+#Bpesquisa{
+    margin-top: 40px;
+    width: 380px;
+    height: 50px;
+    border: 1px solid #1212e8;
+    border-radius: 5px;
+}
+
+#Bpesquisa input{
+    width: 85%;
+    height: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+#button{
+    border: none;
+    width: 13%;
+    height: 95%;
+    background-color: #8787ea;
+}
+
+#button img{
+    width: 15px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    height: 40px;
+    background-color: #7547e0;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.categorias{
+    padding-top: 5px;
+}
+
+.categorias:hover{
+    border-radius: 10px 10px 0 0;
+    animation: color-change 1s;
+    background-color: #fff;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+}
+.card{
+    background-color: #ccc;
+}
+
+.card figure img{
+    width: 150px;
+}
+figcaption{
+    width: 1000px;
+}
